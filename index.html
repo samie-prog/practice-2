@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova 2026 - College Tech Fest</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 20px;
+            color: #222;
+        }
+
+        header {
+            background-color: #123456;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header img {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #777;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #123456;
+            color: white;
+        }
+
+        input, select, textarea {
+            padding: 8px;
+            margin-top: 5px;
+            max-width: 100%;
+        }
+
+        footer {
+            background-color: #123456;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header id="home">
+        <h1>TECHNOVA 2026</h1>
+        <h2>Innovation Begins Here!</h2>
+
+        <img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80"
+            alt="Computer circuit board representing technology"
+            width="450"
+        >
+
+        <p>
+            Welcome to TechNova 2026, our college's annual technology
+            fest. Join us for exciting coding competitions, cybersecurity
+            challenges, robotics demonstrations, and innovative projects.
+            Explore new ideas and showcase your technical skills!
+        </p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Event</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#register">Registration</a>
+    </nav>
+
+    <main>
+
+        <!-- About Event Section -->
+        <section id="about">
+            <h2>About TechNova</h2>
+
+            <p>
+                TechNova is a platform for students to explore
+                emerging technologies, learn new skills, and
+                participate in creative technical activities.
+                Students from different departments are welcome
+                to take part in the event.
+            </p>
+
+            <h3>Activities and Highlights</h3>
+
+            <ul>
+                <li>Web Development and Coding Competition</li>
+                <li>Cybersecurity Awareness Workshop</li>
+                <li>Robotics and Innovation Exhibition</li>
+                <li>Quiz on Computer Science and Technology</li>
+                <li>Student Project Presentation</li>
+                <li>Prize Distribution and Closing Ceremony</li>
+            </ul>
+        </section>
+
+        <!-- Event Schedule Section -->
+        <section id="schedule">
+            <h2>Event Schedule</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Event Name</th>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Venue</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Inauguration Ceremony</td>
+                        <td>15 October 2026</td>
+                        <td>10:00 AM</td>
+                        <td>Main Auditorium</td>
+                    </tr>
+
+                    <tr>
+                        <td>Coding Competition</td>
+                        <td>15 October 2026</td>
+                        <td>11:00 AM</td>
+                        <td>Computer Lab 1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Cybersecurity Workshop</td>
+                        <td>15 October 2026</td>
+                        <td>12:30 PM</td>
+                        <td>Seminar Hall</td>
+                    </tr>
+
+                    <tr>
+                        <td>Robotics Exhibition</td>
+                        <td>15 October 2026</td>
+                        <td>02:00 PM</td>
+                        <td>Innovation Centre</td>
+                    </tr>
+
+                    <tr>
+                        <td>Quiz Competition</td>
+                        <td>15 October 2026</td>
+                        <td>03:00 PM</td>
+                        <td>Room 204</td>
+                    </tr>
+
+                    <tr>
+                        <td>Prize Distribution</td>
+                        <td>15 October 2026</td>
+                        <td>04:00 PM</td>
+                        <td>Main Auditorium</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Registration Form Section -->
+        <section id="register">
+            <h2>TechNova Registration Form</h2>
+
+            <p>
+                Fill in the details below to register for
+                TechNova 2026.
+            </p>
+
+            <form action="#" method="post">
+
+                <!-- Full Name -->
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname"
+                    placeholder="Enter your full name" required>
+                <br><br>
+
+                <!-- Email -->
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email"
+                    placeholder="Enter your email" required>
+                <br><br>
+
+                <!-- Phone Number -->
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"
+                    placeholder="Enter your phone number"
+                    pattern="[0-9]{10}" required>
+                <br><br>
+
+                <!-- Gender -->
+                <label>Gender:</label><br>
+
+                <input type="radio" id="male" name="gender"
+                    value="Male" required>
+                <label for="male">Male</label><br>
+
+                <input type="radio" id="female" name="gender"
+                    value="Female">
+                <label for="female">Female</label><br>
+
+                <input type="radio" id="other" name="gender"
+                    value="Other">
+                <label for="other">Other</label>
+                <br><br>
+
+                <!-- Course / Department -->
+                <label for="department">Course / Department:</label><br>
+
+                <select id="department" name="department" required>
+                    <option value="">Select your department</option>
+                    <option value="CSE">Computer Science Engineering</option>
+                    <option value="Cybersecurity">Cybersecurity</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="ECE">Electronics and Communication</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br><br>
+
+                <!-- Event Selection -->
+                <label for="event">Select an Event:</label><br>
+
+                <select id="event" name="event" required>
+                    <option value="">Choose an event</option>
+                    <option value="Coding">Coding Competition</option>
+                    <option value="Cybersecurity">Cybersecurity Workshop</option>
+                    <option value="Robotics">Robotics Exhibition</option>
+                    <option value="Quiz">Quiz Competition</option>
+                    <option value="Project">Project Presentation</option>
+                </select>
+                <br><br>
+
+                <!-- Comments -->
+                <label for="comments">Message / Comments:</label><br>
+
+                <textarea id="comments" name="comments"
+                    rows="5" cols="35"
+                    placeholder="Enter your message or technical interests"></textarea>
+                <br><br>
+
+                <!-- Form Buttons -->
+                <button type="submit">Register Now</button>
+                <button type="reset">Reset Form</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>TechNova 2026 | College Technology Fest</p>
+        <p>Contact: technova@college.edu</p>
+        <p>All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
